@@ -1,0 +1,10 @@
+para iniciar o server no vscode:
+ng serve
+ou entao
+ng serve --host <ip> --port <port>
+
+
+para acrescentar components:
+ng generate components <name>
+ou abreviado
+ng g c <name>

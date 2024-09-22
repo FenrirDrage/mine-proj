@@ -10,6 +10,7 @@ import { TopheaderComponent } from './components/topheader/topheader.component';
 @Component({
   selector: 'app-root',
   standalone: true,
+  //nos imports fazer acrescimo do que se vai usar na aplicação
   imports: [RouterOutlet, MyloginComponent, CtableComponent, DefmenuComponent, MenubarComponent,SubmenuComponent,TopheaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
